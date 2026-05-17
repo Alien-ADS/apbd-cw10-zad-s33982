@@ -1,13 +1,10 @@
-using Cwiczenia_10.DTOs.GetPcDetails;
-
 namespace Cwiczenia_10.DTOs;
 
-public class GetPc {
+public class PostResponse {
     public int Id { get; set; }
-    public string Name { get; set; } = string.Empty;
+    public string Name { get; set; }
     public float Weight { get; set; }
     public int Warranty { get; set; }
     public DateTime CreatedAt { get; set; }
     public int Stock { get; set; }
-    public IEnumerable<ComponentsDetails> Components { get; set; }
 }

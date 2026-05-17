@@ -18,4 +18,12 @@
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.7" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="TASK\GetAllResponse.json" />
+      <_ContentIncludedByDefault Remove="TASK\GetByIdResponse.json" />
+      <_ContentIncludedByDefault Remove="TASK\PostRequest.json" />
+      <_ContentIncludedByDefault Remove="TASK\PostResponse.json" />
+      <_ContentIncludedByDefault Remove="TASK\PutRequest.json" />
+    </ItemGroup>
+
 </Project>
